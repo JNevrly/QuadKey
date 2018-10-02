@@ -1,8 +1,9 @@
-from util import precondition
-from tile_system import TileSystem, valid_key
+from .util import precondition
+from .tile_system import TileSystem, valid_key
 
 LAT_STR = 'lat'
 LON_STR = 'lon'
+
 
 class QuadKey:
 
